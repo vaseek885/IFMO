@@ -1,1 +1,3 @@
-dsfdss
+
+
+(x-a)*(f-d)*(m-k)+(b-a)*(g-d)*(z-k)+(y-d)*(l-k)*(c-a)-(z-k)*(f-d)*(c-a)-(l-k)*(g-d)*(x-a)-(b-a)*(y-d)*(m-k)
