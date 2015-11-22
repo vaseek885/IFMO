@@ -1,0 +1,23 @@
+ORG 0 
+      WORD -C  
+X:    WORD 6DB7
+Y:    WORD -502
+R:    WORD ?
+
+BEGIN:
+CLA
+ADD X
+
+ROR 
+CLC
+ROR
+CLC
+LABEL: ADD Y
+ISZ 000 
+BR LABEL
+
+
+MOV R
+CLA
+
+HLT
