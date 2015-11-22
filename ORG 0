@@ -2,10 +2,9 @@ ORG 0
       WORD -C  
 X:    WORD 6DB7
 Y:    WORD -502
-R:    WORD ?
+R:    WORD 0
 
-BEGIN:
-CLA
+BEGIN: CLA
 ADD X
 
 ROR 
